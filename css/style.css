@@ -1,0 +1,257 @@
+/* 
+    Created on : 25 nov. 2013, 11:40:04
+    Author     : Lauren CADIOU
+*/
+@font-face {
+    font-family: 'entypo-social';
+    src: url('../fonts/entypo-social.eot');
+    src: url('../fonts/entypo-social.woff') format('woff'),
+        url('../fonts/entypo-social.ttf') format('truetype'),
+        url('../fonts/entypo-social.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h2{
+    font-weight: bold;
+}
+.entypo{
+    font-family: 'entypo-social';
+}
+
+body{
+    bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+.container{
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+h2{
+    font-size: 37px;
+}
+.menu{
+    display: block;
+    position: static;
+    margin-bottom: 30px;
+
+}
+.jumbotron{
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+titre-jumbotron{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.img-circle-col{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: justify;
+
+}
+.img-circle{
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.milieu-4{
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-align: justify;
+}
+.milieu-8{
+
+    text-align: left;
+    height: 200px;
+    line-height: 200px;
+    vertical-align: middle;
+
+}
+.texte-milieu{
+    display: inline-block;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+.partie{
+    margin-bottom: 20px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+.col-text{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.active{
+
+}
+footer.bottom{
+    margin-bottom: 0; 
+    padding: 14px;
+    padding-bottom: 6px;
+    background-color: #1C1E22;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+
+}
+
+a {
+    font-weight: bold;
+}
+.nav-pills > li > a {
+    border-radius: 0;
+    border-right: 0;
+    border-style: none solid;  
+    border-color: rgba(39, 43, 48,0.5);
+}
+.nav{
+    overflow: hidden;
+    border-radius: 5px;
+}
+/*page actualite*/
+.titre-article{
+    text-align: left;
+    margin: 50px;
+}
+.article{
+    border-bottom: 3px solid #000000;  
+    margin-bottom: 20px;
+}
+.photo-article{
+    margin-bottom: 50px;
+}
+.text-article{
+    margin-bottom: 50px;   
+}
+
+/*page presentation*/
+
+.half-carousel{
+    border-bottom: 3px solid #000000;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+
+.social-icon{
+    color: #2596b8;
+    font-size: 40px;
+
+}
+/*page tarifs*/
+
+.tarifs{
+    border-bottom: 3px solid #000000;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.tarifs-border{
+    padding-bottom: 50px;
+    width: 800px;
+    margin: auto;
+
+}
+.start, .standard{
+    background-color: #e8e5e5;
+    border-radius: 20px;  
+    width: 200px;
+    height: 280px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    color: black;
+}
+.start{
+    float: right;
+}
+.standard{
+    float: left;
+}
+.pro{
+    background-color: #e8e5e5;
+    border-radius: 20px;  
+    width: 220px;
+    height: 400px;  
+    padding-top: 10px; 
+    margin: auto;
+    color:black;
+}
+.button-pro{
+    margin-top: 50px;
+}
+.price{
+    font-size: 40px;        
+}
+.questions{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*page realisations*/
+.carousel{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-thumbnail{
+    margin: 50px;
+}
+.mail{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mailto{
+    color: #2a6496;
+}
+.entrerise-text{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 767px){ 
+    /*page accueil*/
+    .milieu-8{
+        height: 100%;
+        line-height: inherit;
+    }
+    /*page actualite*/
+    
+    /*page tarifs*/
+    .tarifs-border{
+        width:100%;   
+    }  
+    .pro{
+        width: 200px;
+        height: 280px;
+        padding-top: 1px;
+        padding-bottom: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .button-pro{
+        margin-top: 0;
+    }
+    .start{
+        float: none;
+        margin: auto;
+    }
+    .standard{
+        float: none;
+        margin: auto;
+    }
+  
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+   
+}
+
+@media screen and (min-width: 992px) and (min-width: 1199px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
